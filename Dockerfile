@@ -8,7 +8,7 @@ WORKDIR /opt/packagingtoolkit
 # Download splunk packaging toolkit
 RUN wget https://download.splunk.com/misc/packaging-toolkit/splunk-packaging-toolkit-1.0.1.tar.gz
 
-# Install appinspect
+# Install packaging toolkit
 RUN pip install splunk-packaging-toolkit-1.0.1.tar.gz
 
 ENTRYPOINT ["slim"]
